@@ -1,0 +1,19 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 2f3a29bb-6483-4790-b4bb-2ecb2b40d7c6
+  title: PRISME fMRI
+  # description:
+  # keywords: []
+  # authors: []
+  github: https://github.com/cneuromod-prisme/prisme.cneuromod.ca
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: overview.md
+    - file: acquisitions/acquisitions.md
+
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  logo: img/logo_prisme.png
